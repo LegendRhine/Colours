@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PF8M7B" name="Colours" projectType="guiapp" version="1.0.0"
+              jucerVersion="4.3.1" bundleIdentifier="http://underwaySoft.com"
+              includeBinaryInAppConfig="1">
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" objCExtraSuffix="ZIF4by" smallIcon="Q2TjEl"
+               bigIcon="Q2TjEl">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Colours"
+                       osxSDK="default" osxCompatibility="10.8 SDK" osxArchitecture="default"
+                       binaryPath="Application/Debug"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="Colours"
+                       osxSDK="default" osxCompatibility="10.8 SDK" osxArchitecture="default"
+                       binaryPath="Application/Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2012 targetFolder="Builds/VisualStudio2012" smallIcon="Q2TjEl" bigIcon="Q2TjEl"
+            toolset="v110_xp">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Colours" binaryPath="Application/Debug"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="Colours" binaryPath="Application/Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2012>
+  </EXPORTFORMATS>
+  <MAINGROUP id="p0N8FG" name="Colours">
+    <GROUP id="{25A06F97-FA38-85C5-70DD-84793DA1A73D}" name="BinaryData">
+      <FILE id="Q2TjEl" name="icon.png" compile="0" resource="1" file="BinaryData/icon.png"/>
+    </GROUP>
+    <GROUP id="{864A401D-6FBA-BF57-1142-E995B9069374}" name="Source">
+      <FILE id="QhmmKB" name="AreaOfFavorColours.cpp" compile="1" resource="0"
+            file="Source/AreaOfFavorColours.cpp"/>
+      <FILE id="mtDCOo" name="AreaOfFavorColours.h" compile="0" resource="0"
+            file="Source/AreaOfFavorColours.h"/>
+      <FILE id="u6YzRC" name="AreaOfPresetColours.cpp" compile="1" resource="0"
+            file="Source/AreaOfPresetColours.cpp"/>
+      <FILE id="wPFKMZ" name="AreaOfPresetColours.h" compile="0" resource="0"
+            file="Source/AreaOfPresetColours.h"/>
+      <FILE id="HhMn1j" name="BaseComp.cpp" compile="1" resource="0" file="Source/BaseComp.cpp"/>
+      <FILE id="fz9bOu" name="BaseComp.h" compile="0" resource="0" file="Source/BaseComp.h"/>
+      <FILE id="IVhJRK" name="HelpAndAbout.h" compile="0" resource="0" file="Source/HelpAndAbout.h"/>
+      <FILE id="WTyJXR" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Mix394" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="JMO0lF" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <GROUP id="{462DDC5A-F728-8D2A-C01D-DB80D28BD243}" name="ColourComponent">
+        <FILE id="prxtQS" name="ColourComponent.cpp" compile="1" resource="0"
+              file="Source/ColourComponent/ColourComponent.cpp"/>
+        <FILE id="uUDbTY" name="ColourComponent.h" compile="0" resource="0"
+              file="Source/ColourComponent/ColourComponent.h"/>
+        <FILE id="NP91i9" name="EditCopyOrFavor.cpp" compile="1" resource="0"
+              file="Source/ColourComponent/EditCopyOrFavor.cpp"/>
+        <FILE id="T9e3xl" name="EditCopyOrFavor.h" compile="0" resource="0"
+              file="Source/ColourComponent/EditCopyOrFavor.h"/>
+        <FILE id="t3dp4V" name="FavorForCopyOrEdit.cpp" compile="1" resource="0"
+              file="Source/ColourComponent/FavorForCopyOrEdit.cpp"/>
+        <FILE id="ePBjfV" name="FavorForCopyOrEdit.h" compile="0" resource="0"
+              file="Source/ColourComponent/FavorForCopyOrEdit.h"/>
+        <FILE id="f7sOrn" name="PresetForSelect.cpp" compile="1" resource="0"
+              file="Source/ColourComponent/PresetForSelect.cpp"/>
+        <FILE id="ceOfuC" name="PresetForSelect.h" compile="0" resource="0"
+              file="Source/ColourComponent/PresetForSelect.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_USE_DIRECTWRITE="disabled"/>
+</JUCERPROJECT>
