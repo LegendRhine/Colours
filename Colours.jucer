@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="PF8M7B" name="Colours" projectType="guiapp" version="1.0.0"
-              jucerVersion="4.3.1" bundleIdentifier="http://underwaySoft.com"
+              jucerVersion="4.3.1" bundleIdentifier="colours.underwaySoft.com"
               includeBinaryInAppConfig="1">
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" objCExtraSuffix="ZIF4by" smallIcon="Q2TjEl"
                bigIcon="Q2TjEl">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Colours"
-                       osxSDK="default" osxCompatibility="10.8 SDK" osxArchitecture="default"
+                       osxSDK="default" osxCompatibility="10.9 SDK" osxArchitecture="default"
                        binaryPath="Application/Debug"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="Colours"
-                       osxSDK="default" osxCompatibility="10.8 SDK" osxArchitecture="default"
+                       osxSDK="default" osxCompatibility="10.9 SDK" osxArchitecture="default"
                        binaryPath="Application/Release"/>
       </CONFIGURATIONS>
       <MODULEPATHS>

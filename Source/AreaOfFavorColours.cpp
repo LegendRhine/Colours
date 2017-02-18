@@ -15,7 +15,10 @@
 
 //==================================================================================
 AreaOfFavorColours::AreaOfFavorColours(EditCopyOrFavor* editObj, Viewport* viewport)  
-    : nums(999), width(150), height(50), editCopyOrFavor(editObj), 
+    : editCopyOrFavor(editObj),
+    nums(999),
+    width(150),
+    height(50),
     isDrag(false), origIndex(0), dragY(0), parentViewport(viewport)
 {
     jassert(viewport != nullptr);    // 本类必须置于Viewport中！
